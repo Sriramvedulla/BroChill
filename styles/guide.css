@@ -1,0 +1,20 @@
+section {
+  margin-top: 110px;
+  width: 86%;
+  margin-left: 8%;
+  padding-bottom: 30px;
+}
+.guide h2 {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+  padding: 40px 0px 20px 0px;
+}
+.guide p {
+  line-height: 30px;
+  padding-top: 20px;
+  font-size: 15px;
+}
+.guide a {
+  color: black;
+}
