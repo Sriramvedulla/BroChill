@@ -1,0 +1,94 @@
+.section1 {
+  margin-top: 111px;
+  margin-left: 25%;
+  width: 50%;
+}
+h1 {
+  padding-left: 15px;
+  padding-bottom: 20px;
+  padding-top: 70px;
+  font-size: 30px;
+  color: #6fe46e;
+}
+.para {
+  width: 100%;
+  padding: 15px;
+}
+.para input {
+  border-radius: 2px;
+  margin-top: 5px;
+  width: 100%;
+  height: 40px;
+  border: 1px solid #eaeaea;
+  background-color: #fafafa;
+}
+.para input:focus {
+  background-color: white;
+  border-color: #eaeaea;
+}
+#file {
+  margin-top: 5px;
+  border: 1px solid #eaeaea;
+  line-height: 1;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+#message {
+  background: #fafafa;
+  border-radius: 2px;
+}
+#message:focus {
+  background-color: #fff;
+}
+textarea {
+  border: 1px solid #eaeaea;
+  border-radius: 2px;
+  margin-top: 5px;
+  padding: 0.7em;
+  width: 100%;
+}
+#btn {
+  padding-top: 14px;
+  padding-right: 28px;
+  padding-bottom: 14px;
+  padding-left: 28px;
+  border-color: #0170b9;
+  background-color: #0170b9;
+  border-radius: 2px;
+  color: white;
+  font-size: 15px;
+}
+#btn:hover {
+  background-color: #3a3a3a;
+  border-color: #3a3a3a;
+  font-family: "Abeezee", "sans-serif";
+}
+.btn {
+  margin: 15px;
+}
+.section2 {
+  display: flex;
+  margin-top: 70px;
+  width: 85%;
+  margin-left: 7%;
+}
+h3 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.abtleft {
+  width: 50%;
+  padding-top: 15%;
+}
+.abtright img {
+  width: 100%;
+}
+.info {
+  margin-top: 5%;
+  line-height: 30px;
+}
+.info a {
+  color: black;
+}
