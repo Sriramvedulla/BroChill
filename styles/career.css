@@ -1,0 +1,36 @@
+section {
+  margin-top: 150px;
+  width: 80%;
+  height: 500px;
+  margin-left: 10%;
+}
+.b-image {
+  background-image: url(https://www.brochill.com/wp-content/uploads/2021/10/brochill-open-position-design-2.png);
+  height: 400px;
+  cursor: pointer;
+}
+.b-image a {
+  text-decoration: none;
+  color: #fff;
+}
+.heading {
+  font-weight: 400;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 40px 0px 20px 0px;
+}
+.img-title {
+  text-align: center;
+  padding: 70px 0px 40px 0px;
+  font-weight: 400;
+  font-size: 35px;
+  font-family: "ABeeZee", sans-serif;
+}
+.overlay-inner p {
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 35px;
+}
