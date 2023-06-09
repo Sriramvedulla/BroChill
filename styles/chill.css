@@ -13,14 +13,18 @@ body {
 }
 .icon-media {
   background-color: #217d04;
-  height: 25px;
+  height: 30px;
 }
 .media {
   margin-left: 3%;
+  line-height: 35px;
 }
 .media a {
   color: #fff;
-  padding-left: 10px;
+  padding-left: 5px;
+}
+.media a i {
+  font-size: 20px;
 }
 .media a:hover {
   color: #38f903;
