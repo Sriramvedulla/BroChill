@@ -135,6 +135,8 @@ body {
   background-color: #f9f9f9;
   width: 250px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+  top: 105px;
+  border-top: 2px solid blue;
 }
 
 .dropdown-lists a {
@@ -147,7 +149,6 @@ body {
   display: block;
   text-align: left;
 }
-
 .dropdown-lists a:hover {
   color: #12ea27;
 }
