@@ -15,7 +15,7 @@
 }
 .heading {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 30px;
   font-family: sans-serif;
   text-align: center;
   padding: 40px 0px 20px 0px;
@@ -34,53 +34,75 @@
   font-size: 18px;
   line-height: 35px;
 }
-.elements2 {
+.accordion {
   width: 80%;
   margin-left: 10%;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 30px;
+  margin-bottom: 10%;
 }
-.section-elements {
-  width: 100%;
-}
-.section-elements i {
-  color: #0cf108;
-  font-size: 15px;
-}
-.android:hover i,
-.fstack:hover i,
-.veditor:hover i,
-.ads:hover i {
-  color: #fff;
+.accordion-button:hover {
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #0cf108 0%, #024605 111%);
 }
 
-.ads:hover i {
+.accordion-button i {
+  color: #0cf108;
+}
+.accordion-button:hover i {
   color: #fff;
 }
-.android,
-.fstack,
-.veditor,
-.ads {
-  border: 1px solid rgba(0, 0, 0, 0.02);
-  padding: 15px;
-  width: 100%;
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: 400;
+.accordion-button {
+  font-weight: 600;
+  gap: 8px;
 }
-.android:hover,
-.fstack:hover,
-.veditor:hover,
-.ads:hover {
+.accordion-button:hover span {
   color: #fff;
-  background-color: transparent;
-  background-image: linear-gradient(180deg, #0c9b0a 0%, #033d04 111%);
+}
+.accordion-button::after {
+  display: none;
+}
+.accordion-item {
+  --bs-accordion-border-color: none;
 }
 blockquote {
   border-left: 5px solid rgba(0, 0, 0, 0.05);
   padding: 20px;
+  font-style: italic;
 }
-ul {
-  list-style: disc;
-  padding: 5px 0px 0px 40px;
+.accordion-body h1 {
+  font-weight: 700;
+}
+.accordion-body img {
+  width: 50px;
+}
+input[type="file"] {
+  color: #666;
+  height: auto;
+  border: 2px solid #eaeaea;
+  border-radius: 2px;
+  background: #fafafa;
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+input:not([type="submit"]),
+select {
+  width: 100%;
+  padding: 0.75em;
+  border: 2px solid #eaeaea;
+  border-radius: 2px;
+  background: #fafafa;
+}
+input:not([type="submit"]):focus,
+select:focus {
+  border: 2px solid #eaeaea;
+  background-color: #fff;
+}
+.submit {
+  padding: 14px 28px;
+  background-color: #0170b9;
+  border-color: #0170b9;
+  border-radius: 2px;
+  color: #fff;
+  border: 0px;
+  cursor: pointer;
 }
