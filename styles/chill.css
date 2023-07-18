@@ -30,7 +30,7 @@ body {
   color: #38f903;
 }
 .container1 {
-  margin-top: 1px;
+  border-top: 1px solid #fff;
   background-color: #44b12c;
   height: 85px;
 }
