@@ -15,7 +15,7 @@ section {
   border-right: 0.1em solid #3a3a3a;
   white-space: nowrap;
   margin: 0 auto;
-  animation: typing 5s steps(40, end) infinite,
+  animation: typing 4s steps(40, end) infinite,
     blink-caret 0.5s step-end infinite;
 }
 
@@ -27,7 +27,7 @@ section {
     width: 5vw;
   }
   to {
-    width: 32vw;
+    width: 35vw;
   }
 }
 @keyframes blink-caret {
@@ -38,6 +38,9 @@ section {
   50% {
     border-color: #3a3a3a;
   }
+}
+.termssection {
+  padding-top: 30px;
 }
 .termshead {
   font-size: 22px;
@@ -50,7 +53,7 @@ section {
   border-right: 0.1em solid #3a3a3a;
   white-space: nowrap;
   margin: 0 auto;
-  animation: typing 5s steps(40, end) infinite,
+  animation: typing 4s steps(40, end) infinite,
     blink-caret 0.5s step-end infinite;
 }
 @keyframes typing {
@@ -58,7 +61,7 @@ section {
     width: 5vw;
   }
   to {
-    width: 24vw;
+    width: 35vw;
   }
 }
 @keyframes blink-caret {
@@ -75,13 +78,16 @@ section {
   font-weight: 600;
   color: #3a3a3a;
 }
+.privacysection {
+  padding-top: 30px;
+}
 .privacyhead {
   text-align: center;
   overflow: hidden;
   border-right: 0.1em solid #3a3a3a;
   white-space: nowrap;
   margin: 0 auto;
-  animation: typing 5s steps(40, end) infinite,
+  animation: typing 4s steps(40, end) infinite,
     blink-caret 0.5s step-end infinite;
 }
 @keyframes typing {
